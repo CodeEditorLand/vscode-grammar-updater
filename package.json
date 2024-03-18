@@ -16,11 +16,11 @@
   },
   "dependencies": {
     "fast-plist": "0.1.2",
-    "cson-parser": "^4.0.9"
+    "cson-parser": "4.0.9"
   },
   "devDependencies": {
-    "@types/node": "^10.12.12",
-    "typescript": "^4.6.2"
+    "@types/node": "10.12.12",
+    "typescript": "4.6.2"
   },
   "scripts": {
     "generate-typings": "tsc -p jsconfig.json",
