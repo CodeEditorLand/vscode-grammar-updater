@@ -19,7 +19,7 @@
     "cson-parser": "4.0.9"
   },
   "devDependencies": {
-    "@types/node": "20.11.28",
+    "@types/node": "20.11.30",
     "typescript": "5.4.2"
   },
   "scripts": {
