@@ -1,45 +1,45 @@
 {
-	"author": {
-		"email": "Land@PlayForm.Cloud",
-		"name": "🌆 — Land —",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"bin": "./bin.js",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGrammarUpdater/issues"
-	},
-	"dependencies": {
-		"cson-parser": "4.0.9",
-		"fast-plist": "0.1.3"
-	},
+	"name": "vscode-grammar-updater",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Utility to update TextMate grammars that are part of VSCode language extensions",
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
-		"@types/node": "20.12.7"
-	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGrammarUpdater#readme",
 	"keywords": [
 		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE",
-	"main": "./index.js",
-	"name": "vscode-grammar-updater",
-	"private": false,
-	"publishConfig": {
-		"access": "public"
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGrammarUpdater#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGrammarUpdater/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/LandGrammarUpdater.git"
 	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"main": "./index.js",
+	"types": "./index.d.ts",
+	"bin": "./bin.js",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"generate-typings": "tsc -p jsconfig.json",
-		"postversion": "git push && git push --tags",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"postversion": "git push && git push --tags"
 	},
-	"type": "module",
-	"types": "./index.d.ts",
-	"version": "0.0.1"
+	"dependencies": {
+		"cson-parser": "4.0.9",
+		"fast-plist": "0.1.3"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"@types/node": "20.12.7"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
