@@ -1,26 +1,6 @@
 {
 	"name": "vscode-grammar-updater",
-	"version": "0.0.1",
-	"private": false,
 	"description": "Utility to update TextMate grammars that are part of VSCode language extensions",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGrammarUpdater#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGrammarUpdater/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandGrammarUpdater.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"main": "./index.js",
 	"types": "./index.d.ts",
 	"bin": "./bin.js",
@@ -36,10 +16,6 @@
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
 		"@types/node": "20.12.10"
-	},
-	"publishConfig": {
-		"access": "public"
 	}
 }
