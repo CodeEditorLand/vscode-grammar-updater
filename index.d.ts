@@ -10,11 +10,4 @@
  *
  * @returns {Promise<void>}
  */
-export function update(
-	repoId: string,
-	repoPath: string,
-	dest: string,
-	modifyGrammar: ((grammar: any) => any) | undefined,
-	version?: string,
-	packageJsonPathOverride?: string,
-): Promise<void>;
+export function update(repoId: string, repoPath: string, dest: string, modifyGrammar: ((grammar: any) => any) | undefined, version?: string, packageJsonPathOverride?: string): Promise<void>;
