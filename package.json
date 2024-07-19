@@ -10,9 +10,9 @@
 	},
 	"dependencies": {
 		"cson-parser": "4.0.9",
-		"fast-plist": "0.1.3"
+		"fast-plist": "0.1.2"
 	},
 	"devDependencies": {
-		"@types/node": "20.14.11"
+		"@types/node": "10.12.12"
 	}
 }
