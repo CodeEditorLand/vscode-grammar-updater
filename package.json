@@ -9,10 +9,10 @@
 		"postversion": "git push && git push --tags"
 	},
 	"dependencies": {
-		"cson-parser": "^4.0.9",
-		"fast-plist": "0.1.2"
+		"cson-parser": "4.0.9",
+		"fast-plist": "0.1.3"
 	},
 	"devDependencies": {
-		"@types/node": "^10.12.12"
+		"@types/node": "20.14.11"
 	}
 }
