@@ -1,12 +1,12 @@
 {
 	"bin": "./bin.js",
 	"dependencies": {
-		"cson-parser": "^4.0.9",
+		"cson-parser": "4.0.9",
 		"fast-plist": "0.1.2"
 	},
 	"description": "Utility to update TextMate grammars that are part of VSCode language extensions",
 	"devDependencies": {
-		"@types/node": "^10.12.12"
+		"@types/node": "10.12.12"
 	},
 	"main": "./index.js",
 	"name": "vscode-grammar-updater",
