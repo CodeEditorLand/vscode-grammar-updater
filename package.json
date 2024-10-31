@@ -6,7 +6,7 @@
 	},
 	"description": "Utility to update TextMate grammars that are part of VSCode language extensions",
 	"devDependencies": {
-		"@types/node": "22.8.4"
+		"@types/node": "22.8.6"
 	},
 	"main": "./index.js",
 	"name": "vscode-grammar-updater",
